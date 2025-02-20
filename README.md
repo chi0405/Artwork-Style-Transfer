@@ -1,12 +1,11 @@
 # ArtFusion: Neural Style Synthesis with TensorFlow 2
-──────────────────────────────
+
 
 ## Overview
-────────
+
 ArtFusion is a neural style transfer project built using TensorFlow 2 and Keras. This project implements a modular pipeline for transferring the artistic style from one image onto the content of another. The pipeline supports both VGG19 and InceptionV3-based feature extractors, allowing you to experiment with multiple architectures and adjust various parameters like content and style loss weighting. The optimization is performed using the L-BFGS algorithm from SciPy, and the code is organized into reusable functions for easy experimentation and integration.
 
 ## Features
-────────
 
  * Modular design with separate functions for preprocessing, loss calculation, gradient computation, and image deprocessing.
 
@@ -20,7 +19,7 @@ ArtFusion is a neural style transfer project built using TensorFlow 2 and Keras.
 
 
 ## Usage
-─────
+
 The sorting of images and the execution of style transfer is handled using function calls in the file (e.g., run_style_transfer). The pipeline consists of these steps:
 
 1. Preprocess Image
